@@ -1,14 +1,13 @@
 {
     "name": "daniel-de-wit/laravel-ide-helper-hook-get-key",
-    "type": "library",
     "description": "A Laravel Package for adding Eloquent GetKey type support to Laravel IDE Helper",
+    "license": "MIT",
+    "type": "library",
     "keywords": [
         "laravel-ide-helper",
         "eloquent",
         "getKey"
     ],
-    "homepage": "https://github.com/daniel-de-wit/laravel-ide-helper-hook-get-key",
-    "license": "MIT",
     "authors": [
         {
             "name": "Daniel de Wit",
@@ -16,6 +15,7 @@
             "role": "Developer"
         }
     ],
+    "homepage": "https://github.com/daniel-de-wit/laravel-ide-helper-hook-get-key",
     "require": {
         "php": "^7.3 || ^8.0",
         "barryvdh/laravel-ide-helper": "^2.9.2",
@@ -30,16 +30,6 @@
         "phpunit/phpunit": "^9.5",
         "thecodingmachine/phpstan-safe-rule": "^1.0"
     },
-    "config": {
-        "sort-packages": true
-    },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "DanielDeWit\\LaravelIdeHelperHookGetKey\\Providers\\LaravelIdeHelperHookGetKeyServiceProvider"
-            ]
-        }
-    },
     "autoload": {
         "psr-4": {
             "DanielDeWit\\LaravelIdeHelperHookGetKey\\": "src"
@@ -48,6 +38,16 @@
     "autoload-dev": {
         "psr-4": {
             "DanielDeWit\\LaravelIdeHelperHookGetKey\\Tests\\": "tests"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "DanielDeWit\\LaravelIdeHelperHookGetKey\\Providers\\LaravelIdeHelperHookGetKeyServiceProvider"
+            ]
         }
     },
     "scripts": {
