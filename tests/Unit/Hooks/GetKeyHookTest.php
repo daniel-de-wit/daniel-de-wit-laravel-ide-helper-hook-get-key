@@ -7,7 +7,6 @@ namespace DanielDeWit\LaravelIdeHelperHookGetKey\Tests\Unit\Hooks;
 use Barryvdh\LaravelIdeHelper\Console\ModelsCommand;
 use DanielDeWit\LaravelIdeHelperHookGetKey\Hooks\KeyTypeHook;
 use DanielDeWit\LaravelIdeHelperHookGetKey\Tests\stubs\ModelWithIntegerKey;
-use Illuminate\Database\Eloquent\Model;
 use Mockery;
 use Mockery\Adapter\Phpunit\MockeryPHPUnitIntegration;
 use Mockery\MockInterface;
